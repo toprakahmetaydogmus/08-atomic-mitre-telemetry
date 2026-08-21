@@ -1,27 +1,27 @@
-# Automated Purple Teaming & MITRE Telemetry Coverage Engine
+# 🎯 Automated Purple Teaming & MITRE Telemetry Coverage Engine
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/08-atomic-mitre-telemetry?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/08-atomic-mitre-telemetry/releases)
-[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI Quality Gate](https://github.com/toprakahmetaydogmus/08-atomic-mitre-telemetry/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/08-atomic-mitre-telemetry/actions)
-[![MITRE ATT&CK](https://img.shields.io/badge/Matrix-Enterprise%20ATT%26CK-red.svg)](#)
 
-Geliştirici: **Toprak Ahmet Aydoğmuş**
-
-Sentetik saldırı telemetrisi üreten ve MITRE ATT&CK savunma kapsama matrisini (T1082, T1059, T1033, T1016) doğrulayan Purple Teaming motoru.
+Developer: **Toprak Ahmet Aydoğmuş**
 
 ---
 
-## ⚡ Hızlı Başlangıç
+## 🎯 1. Overview
+Purple teaming automation tool that synthesizes telemetry for adversary techniques across the MITRE ATT&CK matrix (Discovery, Privilege Escalation, Lateral Movement, Exfiltration) and evaluates telemetry sensor detection coverage.
+
+---
+
+## 🚀 2. Quick Start
 
 ```bash
 git clone https://github.com/toprakahmetaydogmus/08-atomic-mitre-telemetry.git
 cd 08-atomic-mitre-telemetry
-
-python scripts/telemetry_orchestrator.py
+python -m unittest discover tests/
 ```
 
 ---
 
-## 📜 Lisans
-MIT License - **Toprak Ahmet Aydoğmuş**
+## 📜 3. License
+Licensed under the [MIT License](LICENSE).  
+Developer: **Toprak Ahmet Aydoğmuş**.
